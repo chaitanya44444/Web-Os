@@ -1,15 +1,58 @@
+body {
+    font-family: Noto Sans, sans-serif;
+    background-image: url(./bg.avif);
+    background-size: cover;
+}
+
+#header-bar {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.125);
+    color: #fff;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+#os-name {
+    margin-left: 16px;
+    font-weight: 700;
+    background-color: rgba(256, 256, 256, 0.125);
+    padding: 4px 12px;
+    border-radius: 16px;
+}
+
+#tagline {
+    margin-left: 16px;
+    background-color: rgba(256, 256, 256, 0.25);
+    padding: 4px 12px;
+    border-radius: 16px;
+}
+
+#timeElement {
+    margin-right: 16px;
+    background-color: rgba(256, 256, 256, 0.125);
+    padding: 4px 12px;
+    border-radius: 16px;
+}
+
 #welcomemove {
     position: absolute;
     z-index: 9;
-    background-color: #f1f1f1;
-    border: 1px solid #d3d3d3;
-    text-align: center;
-  }
-  
-  #welcomemoveheader {
-    padding: 10px;
+    background-color: aquamarine;
+    border: solid;
+    width: fit-content;
+    padding: 16px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#welcomemoveheader {
+    background-color: aquamarine;
+    padding: 16px;
     cursor: move;
     z-index: 10;
-    background-color: #2196F3;
     color: #fff;
-  }
+}
