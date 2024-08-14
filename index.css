@@ -37,7 +37,7 @@ body {
     border-radius: 16px;
 }
 
-#welcomemove {
+#window {
     position: absolute;
     z-index: 9;
     background-color: aquamarine;
@@ -49,7 +49,7 @@ body {
     transform: translate(-50%, -50%);
 }
 
-#welcomemoveheader {
+#windowheader {
     background-color: aquamarine;
     padding: 16px;
     cursor: move;
